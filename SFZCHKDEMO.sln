@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClsSFZCHK", "ClsSFZCHK\ClsSFZCHK.vbproj", "{90932BF5-A64D-476B-A010-5248E6F85BD7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SFZCHKDEMO", "SFZCHKDEMO\SFZCHKDEMO.vbproj", "{1CADB5A5-FE66-442A-AD1F-9C99F362B363}"
+	ProjectSection(ProjectDependencies) = postProject
+		{90932BF5-A64D-476B-A010-5248E6F85BD7} = {90932BF5-A64D-476B-A010-5248E6F85BD7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90932BF5-A64D-476B-A010-5248E6F85BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90932BF5-A64D-476B-A010-5248E6F85BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90932BF5-A64D-476B-A010-5248E6F85BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90932BF5-A64D-476B-A010-5248E6F85BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CADB5A5-FE66-442A-AD1F-9C99F362B363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CADB5A5-FE66-442A-AD1F-9C99F362B363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CADB5A5-FE66-442A-AD1F-9C99F362B363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CADB5A5-FE66-442A-AD1F-9C99F362B363}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
